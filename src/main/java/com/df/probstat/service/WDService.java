@@ -82,6 +82,7 @@ public class WDService {
     }
 
     public void addtomodel(int time, boolean avail){
+        
         WDModel w = new WDModel(time, avail);
         machines.add(w);
     }
